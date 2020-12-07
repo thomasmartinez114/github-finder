@@ -5,8 +5,8 @@ export class UserItem extends Component {
         super();
         this.state = {
           id: 'id',
-          login: 'mojombo',
-          avatar_url: 'https://avatars0.githubusercontent.com/u/1?v=4',
+          login: 'thomasmartinez114',
+          avatar_url: 'https://avatars0.githubusercontent.com/u/48811054?s=460&u=e32dee2196108dba9bde7096a39e571b6e7bf19e&v=4',
           html_url: 'https://github.com/thomasmartinez114'
         }
       }
@@ -17,7 +17,7 @@ export class UserItem extends Component {
                 />
                 <h3>{this.state.login}</h3>
                 <div>
-                    <a href={this.state.html_url} className="btn btn-dark btn-sm my-1">More</a>
+                    <a href={this.state.html_url} className="btn btn-dark btn-sm my-1">GitHub Page</a>
                 </div>
 
             </div>;
