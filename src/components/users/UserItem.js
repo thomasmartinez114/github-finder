@@ -10,14 +10,13 @@ export class UserItem extends Component {
           htmp_url: 'https://github.com/thomasmartinez114'
         }
       }
-      
+
     render() {
-        return (
-            <div>
-                UserItem
-            </div>
-        )
+        return <div className="card text-center">
+                <img src={this.state.avatar_url} alt="" className="round-img" style={{ width: '60px' }}
+                />
+            </div>;
     }
 }
 
-export default UserItem
+export default UserItem;
