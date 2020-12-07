@@ -1,4 +1,11 @@
 {
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
     "javascript.format.semicolons": "insert",
-    "typescript.format.semicolons": "insert"
+    "typescript.format.semicolons": "insert",
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ]
 }
